@@ -4,7 +4,7 @@ A desktop tile map editor built from scratch in **Java** using only the standard
 
 It exists to solve a specific problem: hand-typing 2D level arrays is miserable. Paint a map visually across multiple layers, then export each layer as a ready-to-paste Java `char[][]` or `int[][]` literal.
 
-Originally built as a companion tool for a [2D action-platformer](https://github.com/) written in Java, but it has no dependency on that project and is useful for any game that stores levels as character grids.
+Originally built as a companion tool for a [2D action-platformer](https://github.com/Deleted-Usr/Java_Platformer) written in Java, but it has no dependency on that project and is useful for any game that stores levels as character grids.
 
 ![The editor in light mode](docs/editor-light.png)
 
