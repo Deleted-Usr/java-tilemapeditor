@@ -1,5 +1,6 @@
 package com.willclay.mapeditor;
 
+import com.formdev.flatlaf.FlatDarculaLaf;
 import com.willclay.mapeditor.core.ui.Theme;
 import com.willclay.mapeditor.core.ui.Window;
 
@@ -30,7 +31,7 @@ public class Main
         SwingUtilities.invokeLater(() ->
         {
             applySystemLookAndFeel();
-            Theme.apply(false); // Initialise the light-mode defaults.
+            //Theme.apply(false); // Initialise the light-mode defaults.
 
             Window w = new Window(TITLE);
             w.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -46,7 +47,9 @@ public class Main
     {
         try
         {
-            UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
+            //UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
+
+			FlatDarculaLaf.setup();
         }
         catch (Exception ignored)
         {

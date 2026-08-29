@@ -1,0 +1,11 @@
+{
+  "schemaVersion" : 1,
+  "name" : "Java_TileMapEditor",
+  "language" : "java",
+  "workingDirectory" : ".",
+  "fileHandling" : {
+    "encoding" : "UTF-8",
+    "lineSeparators" : "preserve"
+  },
+  "excludedPaths" : [ ".git", ".idea" ]
+}
