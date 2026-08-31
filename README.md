@@ -135,7 +135,7 @@ Quoting is optional. Unquoted output gives you the compact `{gggggg}` form, whic
 
 An optional **name prefix** namespaces the variables (`level1_Terrain`) when several maps share a scope.
 
-**2. Object loaders** — for layers containing Prop or Marker tiles:
+**2. Object loaders** — for layers containing Prop or Marker tiles — This prop-loading format is not deprecated in favour of loading props directly from the grids themselves: 
 
 ```java
 List<Prop> propList = new ArrayList<>();
